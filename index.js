@@ -96,4 +96,4 @@ client.on('interactionCreate', async interaction => {
   }
 });
 
-client.logintoken(process.env.token);
+bot.login(process.env.token);
